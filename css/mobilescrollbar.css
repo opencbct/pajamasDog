@@ -16,3 +16,17 @@
     /* 스크롤 가능한 콘텐츠의 높이를 적절히 조절하세요 */
   }
   
+  /* desktop.css */
+.desktop-frame {
+  /* 데스크탑 화면 스타일 */
+}
+
+/* mobile.css */
+@media screen and (max-width: 768px) {
+  .desktop-frame {
+      display: none; /* 모바일 화면에서 숨김 */
+  }
+  .mobile-frame {
+      /* 모바일 화면 스타일 */
+  }
+}
