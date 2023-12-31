@@ -1,0 +1,18 @@
+#desktopFrame {
+  width: 100%; /* 데스크탑 프레임 너비 설정 */
+  height: 600px; /* 데스크탑 프레임 높이 설정 */
+  overflow: hidden; /* 초과된 내용을 숨김 */
+  position: relative;
+}
+
+#mobileFrame {
+  width: 100%; /* 모바일 프레임 너비 설정 */
+  height: 100%; /* 모바일 프레임 높이 설정 */
+  overflow: scroll; /* 스크롤 가능하도록 설정 */
+}
+
+#scrollableContent {
+  width: 100%; /* 스크롤 가능한 콘텐츠 너비 설정 */
+  /* 스크롤 가능한 콘텐츠의 높이를 적절히 조절하세요 */
+}
+
